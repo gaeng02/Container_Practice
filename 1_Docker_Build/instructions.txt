@@ -1,0 +1,7 @@
+cd [directory folder]
+docker build -t [image name] [directory Dockerfile]
+docker run -p 5000:5000 [image name]
+
+ex)
+docker build -t docker_build .
+docker run -p 5000:5000 docker_build
