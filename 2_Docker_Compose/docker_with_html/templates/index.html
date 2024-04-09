@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko"> 
+
+<head>
+    <meta charset="UTF-8">
+    <title>Docker_Compose_by_Gaeng02</title>
+    <style>
+    </style>
+</head>
+
+<body>
+    <h3> Favorites </h3>
+    <ul>
+        {% for link in data %}
+            <li>
+                <a href="{{ link[1] }}" target="_blank"> {{ link[0] }} </a>
+            </li>
+        {% endfor %}
+    </ul>
+    
+</body>
+
+</html>
