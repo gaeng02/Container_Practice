@@ -1,0 +1,11 @@
+version: '3'
+
+services: 
+  client_service: 
+    image: docker_with_html
+    ports:
+     - "5000:5000"
+  database: 
+    image: docker_with_database
+    ports:
+      - "5001:5001"
