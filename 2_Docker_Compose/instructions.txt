@@ -1,0 +1,4 @@
+cd [directory folder]
+docker build -t docker_with_html docker_with_html
+docker build -t docker_with_database docker_with_database
+docker compose up
