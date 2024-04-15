@@ -1,0 +1,4 @@
+kubectl get all
+cd {file}
+kubectl apply -f my_deployment.yaml
+minikube service html
